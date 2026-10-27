@@ -1,0 +1,16 @@
+my_list = [30, 10, 20, 40]
+print("Original list:", my_list)
+my_list.append(50)
+print("After adding:", my_list)
+my_list.remove(10)
+print("After removing:", my_list)
+my_list.sort()
+print("After sorting:", my_list)
+my_list.reverse()
+print("After reversing:", my_list)
+my_tuple = (10, 20, 30, 40, 50)
+print("\nOriginal tuple:", my_tuple)
+print("First element:", my_tuple[0])
+print("Sliced tuple:", my_tuple[1:4])
+a, b, c, d, e = my_tuple
+print("Unpacked values:", a, b, c, d, e)

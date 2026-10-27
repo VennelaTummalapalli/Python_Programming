@@ -1,0 +1,14 @@
+t=(10,20,30)
+print(t[1])
+t[0:2]
+print(t)
+(1,2)+(3,4)
+print(t)
+("hi",)*3
+print(t)
+t.count(20)
+print(t)
+t.index(30)
+print(t)
+len(t)
+print(t)
